@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aquamarine;
+  }
+  h2{
+    color: black;
+  }
+  
+  form {
+    width: 300px;
+    padding: 80px 50px;
+    background-color: rgb(250, 239, 239);
+    color: #534caf;
+    font-weight: 500;
+}
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #534caf;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5f45a0;
+  }
+  
